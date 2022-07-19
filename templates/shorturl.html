@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Short URL{% endblock %}
+
+{% block content %}
+<!--for testing locally -->
+<!--use cert.pem and key.pem to run on https 
+    fort that the command is given below. put the actual - insead of dash
+    "flask run [dash][dash]cert=cert.pem [dash][dash]key=key.pem"
+otherwise edit the local links to http://........-->
+<!--
+    <h1>https://127.0.0.1:5000/{{short_url_display}}</h1>
+    <a href="https://127.0.0.1:5000/">BACK TO HOME</a>
+    
+-->
+    <!--for the heroku-->
+    <!---->
+        <h1>https://url-shortener-pyapp.herokuapp.com/{{short_url_display}}</h1>
+        <a href="https://url-shortener-pyapp.herokuapp.com/">BACK TO HOME</a>
+    
+{% endblock %}
