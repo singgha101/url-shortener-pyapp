@@ -7,7 +7,7 @@ This is a python webapp which converts a long url into a small url like into thi
 ![Screenshot url shortenere](https://user-images.githubusercontent.com/34748568/179671821-2a42173f-5cd4-4ea5-9b36-e0199b92c8cb.png)
 
 # How to run locally with https
-For that we need a certificate and a private key. And I've generated them you can generate by your own also.
+For that we need a certificate and a private key. Generate them and follow below steps.
 ### Steps
 1. Make sure the links in the "shorturl.html" are as [https://] instead of [http://] after removing from the comment
 2. Comment the heroku links
